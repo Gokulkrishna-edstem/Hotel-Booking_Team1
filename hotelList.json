@@ -1,0 +1,1422 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Villa Crystal Palace",
+      "location": "Manali, India",
+      "price": 5078,
+      "rating": 2,
+      "image": "https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg",
+      "room": [
+        {
+          "roomType": "Deluxe Room",
+          "price": 2000,
+          "availability": true,
+          "description": "A spacious room with a king-size bed and a beautiful view of the mountains.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1590490360182-c33d57733427"
+        },
+        {
+          "roomType": "Super Deluxe Room",
+          "price": 3000,
+          "availability": false,
+          "description": "Premium accommodations with luxury furnishings and panoramic views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Jacuzzi",
+            "Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061"
+        },
+        {
+          "roomType": "Suite Room",
+          "price": 5000,
+          "availability": true,
+          "description": "Our finest suite with separate living area and premium amenities.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Jacuzzi",
+            "Balcony",
+            "Butler Service"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+        "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
+        "https://images.pexels.com/photos/2029719/pexels-photo-2029719.jpeg",
+        "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg",
+        "https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mountain View Resort",
+      "location": "Shimla, India",
+      "price": 4200,
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg",
+      "room": [
+        {
+          "roomType": "Standard Room",
+          "price": 1800,
+          "availability": true,
+          "description": "Cozy mountain-facing room with modern amenities.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "TV",
+            "Tea/Coffee Maker"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a"
+        },
+        {
+          "roomType": "Deluxe Room",
+          "price": 2500,
+          "availability": true,
+          "description": "Spacious room with premium bedding and scenic views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Room Service"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1587985064135-0366536eab42"
+        },
+        {
+          "roomType": "Family Suite",
+          "price": 4000,
+          "availability": false,
+          "description": "Two-bedroom suite ideal for families with children.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Kitchenette",
+            "Private Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg",
+        "https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg",
+        "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg",
+        "https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg",
+        "https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Oceanfront Paradise",
+      "location": "Goa, India",
+      "price": 7500,
+      "rating": 4.8,
+      "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+      "room": [
+        {
+          "roomType": "Beach View Room",
+          "price": 3500,
+          "availability": true,
+          "description": "Bright room with direct views of the Arabian Sea.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Private Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6"
+        },
+        {
+          "roomType": "Pool Access Room",
+          "price": 5000,
+          "availability": true,
+          "description": "Ground floor room with direct access to the infinity pool.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Pool Access",
+            "Sun Loungers"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1615874959474-d609969a20ed"
+        },
+        {
+          "roomType": "Luxury Beach Villa",
+          "price": 12000,
+          "availability": true,
+          "description": "Private villa with personal pool and beach access.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Private Pool",
+            "Outdoor Shower",
+            "Butler Service"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1540541338287-41700207dee6"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg",
+        "https://images.pexels.com/photos/2029722/pexels-photo-2029722.jpeg",
+        "https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg",
+        "https://images.pexels.com/photos/2869215/pexels-photo-2869215.jpeg",
+        "https://images.pexels.com/photos/1743231/pexels-photo-1743231.jpeg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Desert Oasis Resort",
+      "location": "Jaisalmer, India",
+      "price": 6200,
+      "rating": 4.6,
+      "image": "https://images.pexels.com/photos/2344267/pexels-photo-2344267.jpeg",
+      "room": [
+        {
+          "roomType": "Heritage Room",
+          "price": 3000,
+          "availability": true,
+          "description": "Traditional Rajasthani-style room with modern comforts.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "TV",
+            "Tea/Coffee Maker",
+            "Traditional Decor"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da"
+        },
+        {
+          "roomType": "Desert View Suite",
+          "price": 4500,
+          "availability": true,
+          "description": "Spacious suite with panoramic views of the Thar Desert.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Private Terrace",
+            "Sitting Area"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa"
+        },
+        {
+          "roomType": "Royal Tent",
+          "price": 8000,
+          "availability": false,
+          "description": "Luxury tent accommodation with traditional Rajasthani interiors.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "King Size Bed",
+            "Private Bathroom",
+            "Outdoor Seating Area",
+            "Desert Views"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1570214476695-19bd467e6f7a"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg",
+        "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg",
+        "https://images.pexels.com/photos/237388/pexels-photo-237388.jpeg",
+        "https://images.pexels.com/photos/6394576/pexels-photo-6394576.jpeg",
+        "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Lakeside Retreat",
+      "location": "Udaipur, India",
+      "price": 8500,
+      "rating": 4.9,
+      "image": "https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg",
+      "room": [
+        {
+          "roomType": "Lake View Room",
+          "price": 4000,
+          "availability": true,
+          "description": "Elegant room with breathtaking views of Lake Pichola.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"
+        },
+        {
+          "roomType": "Heritage Suite",
+          "price": 7000,
+          "availability": true,
+          "description": "Ornate suite with traditional Rajasthani architectural elements.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Jacuzzi",
+            "Private Balcony",
+            "Butler Service"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1562778612-e1e0cda9915c"
+        },
+        {
+          "roomType": "Royal Palace Suite",
+          "price": 15000,
+          "availability": true,
+          "description": "Opulent suite with antique furnishings and panoramic lake views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Private Terrace",
+            "Private Dining Area",
+            "Personal Butler",
+            "Chauffeur Service"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1551516594-56cb78394645"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg",
+        "https://images.pexels.com/photos/3201763/pexels-photo-3201763.jpeg",
+        "https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg",
+        "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg",
+        "https://images.pexels.com/photos/2029719/pexels-photo-2029719.jpeg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "The Evergreen Resort",
+      "location": "Coorg, India",
+      "price": 5500,
+      "rating": 4.4,
+      "image": "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg",
+      "room": [
+        {
+          "roomType": "Garden View Room",
+          "price": 2500,
+          "availability": true,
+          "description": "Comfortable room overlooking lush green gardens.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "TV",
+            "Tea/Coffee Maker"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+        },
+        {
+          "roomType": "Plantation View Room",
+          "price": 3500,
+          "availability": true,
+          "description": "Room with views of coffee plantations and misty hills.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061"
+        },
+        {
+          "roomType": "Forest Villa",
+          "price": 8000,
+          "availability": false,
+          "description": "Private villa surrounded by dense forest and wildlife.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Private Garden",
+            "Outdoor Jacuzzi",
+            "Fireplace"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/1001965/pexels-photo-1001965.jpeg",
+        "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
+        "https://images.pexels.com/photos/2029719/pexels-photo-2029719.jpeg",
+        "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+        "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Backwater Bliss Resort",
+      "location": "Alleppey, India",
+      "price": 6800,
+      "rating": 4.7,
+      "image": "https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg",
+      "room": [
+        {
+          "roomType": "Canal View Room",
+          "price": 3000,
+          "availability": true,
+          "description": "Peaceful room with views of the tranquil backwater canals.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "TV",
+            "Balcony",
+            "Tea/Coffee Maker"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1590490360182-c33d57733427"
+        },
+        {
+          "roomType": "Backwater Suite",
+          "price": 5000,
+          "availability": true,
+          "description": "Elegant suite with panoramic views of Kerala's backwaters.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Private Deck",
+            "Outdoor Dining Area"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a"
+        },
+        {
+          "roomType": "Luxury Houseboat",
+          "price": 12000,
+          "availability": true,
+          "description": "Traditional Kerala houseboat with modern amenities for a floating experience.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "TV",
+            "Private Deck",
+            "Full Kitchen",
+            "Personal Chef",
+            "Guided Tours"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg",
+        "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+        "https://images.pexels.com/photos/2029722/pexels-photo-2029722.jpeg",
+        "https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg",
+        "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "The Grand Heritage Hotel",
+      "location": "Jaipur, India",
+      "price": 9000,
+      "rating": 4.8,
+      "image": "https://images.pexels.com/photos/2844474/pexels-photo-2844474.jpeg",
+      "room": [
+        {
+          "roomType": "Heritage Room",
+          "price": 4500,
+          "availability": true,
+          "description": "Elegantly decorated room with traditional Rajasthani elements.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Heritage Decor"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+        },
+        {
+          "roomType": "Royal Suite",
+          "price": 8000,
+          "availability": true,
+          "description": "Opulent suite with hand-painted murals and antique furniture.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Jacuzzi",
+            "Sitting Area",
+            "Butler Service"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32"
+        },
+        {
+          "roomType": "Maharaja Palace Suite",
+          "price": 18000,
+          "availability": false,
+          "description": "The epitome of luxury with royal decor and sprawling space.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Private Pool",
+            "Private Terrace",
+            "Personal Butler",
+            "Chauffeur Service"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1540541338287-41700207dee6"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg",
+        "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
+        "https://images.pexels.com/photos/1001965/pexels-photo-1001965.jpeg",
+        "https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg",
+        "https://images.pexels.com/photos/2029719/pexels-photo-2029719.jpeg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Serenity Beach Resort",
+      "location": "Pondicherry, India",
+      "price": 5800,
+      "rating": 4.6,
+      "image": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg",
+      "room": [
+        {
+          "roomType": "Garden View Room",
+          "price": 2800,
+          "availability": true,
+          "description": "Comfortable room with views of tropical gardens.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "TV",
+            "Tea/Coffee Maker"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a"
+        },
+        {
+          "roomType": "Sea View Room",
+          "price": 4200,
+          "availability": true,
+          "description": "Bright room with direct views of the Bay of Bengal.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"
+        },
+        {
+          "roomType": "Beach Villa",
+          "price": 9500,
+          "availability": true,
+          "description": "Private villa with direct beach access and colonial architecture.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Private Garden",
+            "Outdoor Shower",
+            "Direct Beach Access"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1615874959474-d609969a20ed"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+        "https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg",
+        "https://images.pexels.com/photos/2029722/pexels-photo-2029722.jpeg",
+        "https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg",
+        "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Urban Luxury Hotel",
+      "location": "Mumbai, India",
+      "price": 11000,
+      "rating": 4.9,
+      "image": "https://images.pexels.com/photos/2029719/pexels-photo-2029719.jpeg",
+      "room": [
+        {
+          "roomType": "Deluxe City Room",
+          "price": 6000,
+          "availability": true,
+          "description": "Modern room with city skyline views and premium amenities.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Work Desk",
+            "Rain Shower"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1590490360182-c33d57733427"
+        },
+        {
+          "roomType": "Executive Suite",
+          "price": 9000,
+          "availability": true,
+          "description": "Spacious suite with separate living area and panoramic views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Work Desk",
+            "Living Room",
+            "Executive Lounge Access"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32"
+        },
+        {
+          "roomType": "Presidential Suite",
+          "price": 25000,
+          "availability": false,
+          "description": "Ultra-luxurious suite with private dining, living areas and panoramic sea views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Private Dining Room",
+            "Living Room",
+            "Jacuzzi",
+            "Personal Butler",
+            "Chauffeur Service"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1551516594-56cb78394645"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+        "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg",
+        "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
+        "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg",
+        "https://images.pexels.com/photos/2029719/pexels-photo-2029719.jpeg"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Mountain Pinecrest Lodge",
+      "location": "Darjeeling, India",
+      "price": 4800,
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/261169/pexels-photo-261169.jpeg",
+      "room": [
+        {
+          "roomType": "Classic Mountain Room",
+          "price": 2200,
+          "availability": true,
+          "description": "Cozy room with views of the Himalayan foothills.",
+          "amenities": ["Free Wi-Fi", "Heater", "TV", "Tea/Coffee Maker"],
+          "room_image": "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa"
+        },
+        {
+          "roomType": "Kanchenjunga View Room",
+          "price": 3500,
+          "availability": true,
+          "description": "Premium room with unobstructed views of Mt. Kanchenjunga.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Heater",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6"
+        },
+        {
+          "roomType": "Heritage Cottage",
+          "price": 7000,
+          "availability": true,
+          "description": "Colonial-era cottage with fireplace and garden.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Fireplace",
+            "Smart TV",
+            "Mini Bar",
+            "Private Garden",
+            "Living Room",
+            "Dining Area"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1615874959474-d609969a20ed"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/269255/pexels-photo-269255.jpeg",
+        "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg",
+        "https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg",
+        "https://images.pexels.com/photos/2029719/pexels-photo-2029719.jpeg",
+        "https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Riverside Eco Retreat",
+      "location": "Rishikesh, India",
+      "price": 5200,
+      "rating": 4.6,
+      "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+      "room": [
+        {
+          "roomType": "Eco-friendly Room",
+          "price": 2500,
+          "availability": true,
+          "description": "Sustainable room built with natural materials and overlooking the Ganges.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Natural Cooling",
+            "Organic Bedding",
+            "Yoga Mat",
+            "Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1590490360182-c33d57733427"
+        },
+        {
+          "roomType": "Riverside Suite",
+          "price": 4000,
+          "availability": true,
+          "description": "Spacious suite with direct views of the Ganges River.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Fridge",
+            "Private Terrace",
+            "Meditation Space"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4"
+        },
+        {
+          "roomType": "Yoga Villa",
+          "price": 8500,
+          "availability": false,
+          "description": "Private villa with personal yoga deck and panoramic river views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Kitchenette",
+            "Private Yoga Deck",
+            "Outdoor Dining",
+            "Personal Yoga Instructor"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1540541338287-41700207dee6"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+        "https://images.pexels.com/photos/2029719/pexels-photo-2029719.jpeg",
+        "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg",
+        "https://images.pexels.com/photos/1743231/pexels-photo-1743231.jpeg",
+        "https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Tea Valley Resort",
+      "location": "Munnar, India",
+      "price": 4900,
+      "rating": 4.4,
+      "image": "https://images.pexels.com/photos/2869215/pexels-photo-2869215.jpeg",
+      "room": [
+        {
+          "roomType": "Valley View Room",
+          "price": 2300,
+          "availability": true,
+          "description": "Cozy room with views of tea plantations and misty valleys.",
+          "amenities": ["Free Wi-Fi", "Heater", "TV", "Tea/Coffee Maker"],
+          "room_image": "https://images.unsplash.com/photo-1587985064135-0366536eab42"
+        },
+        {
+          "roomType": "Premium Valley View",
+          "price": 3200,
+          "availability": true,
+          "description": "Spacious room with large windows and panoramic valley views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Heater",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da"
+        },
+        {
+          "roomType": "Plantation Suite",
+          "price": 6500,
+          "availability": true,
+          "description": "Luxurious suite surrounded by tea gardens with outdoor seating.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Heater",
+            "Smart TV",
+            "Mini Bar",
+            "Private Terrace",
+            "Living Room",
+            "Plantation Tours"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1551516594-56cb78394645"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+        "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg",
+        "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
+        "https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg",
+        "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Golden Sands Beach Resort",
+      "location": "Puri, India",
+      "price": 5300,
+      "rating": 4.3,
+      "image": "https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg",
+      "room": [
+        {
+          "roomType": "Garden View Room",
+          "price": 2500,
+          "availability": true,
+          "description": "Comfortable room with tropical garden views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "TV",
+            "Tea/Coffee Maker"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa"
+        },
+        {
+          "roomType": "Sea View Room",
+          "price": 3800,
+          "availability": true,
+          "description": "Room with private balcony and direct sea views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+        },
+        {
+          "roomType": "Beachfront Cottage",
+          "price": 7500,
+          "availability": false,
+          "description": "Private cottage with direct beach access and outdoor seating.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Private Patio",
+            "Outdoor Shower",
+            "Beach Access"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg",
+        "https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg",
+        "https://images.pexels.com/photos/1743231/pexels-photo-1743231.jpeg",
+        "https://images.pexels.com/photos/2029722/pexels-photo-2029722.jpeg",
+        "https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Royal Palace Heritage Hotel",
+      "location": "Jodhpur, India",
+      "price": 9500,
+      "rating": 4.8,
+      "image": "https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg",
+      "room": [
+        {
+          "roomType": "Heritage Room",
+          "price": 4800,
+          "availability": true,
+          "description": "Elegant room with traditional Rajasthani decor and modern amenities.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Heritage Decor"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+        },
+        {
+          "roomType": "Royal Suite",
+          "price": 7500,
+          "availability": true,
+          "description": "Spacious suite with palace views and antique furnishings.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Sitting Area",
+            "Balcony",
+            "Butler Service"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32"
+        },
+        {
+          "roomType": "Maharaja Suite",
+          "price": 15000,
+          "availability": true,
+          "description": "Grand suite with ornate interiors, fort views, and royal treatment.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Private Terrace",
+            "Living Room",
+            "Private Dining",
+            "Personal Butler"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1551516594-56cb78394645"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg",
+        "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg",
+        "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+        "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+        "https://images.pexels.com/photos/2344267/pexels-photo-2344267.jpeg"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Spice Garden Resort",
+      "location": "Thekkady, India",
+      "price": 4600,
+      "rating": 4.4,
+      "image": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+      "room": [
+        {
+          "roomType": "Garden Room",
+          "price": 2200,
+          "availability": true,
+          "description": "Pleasant room surrounded by spice gardens and tropical plants.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "TV",
+            "Tea/Coffee Maker"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+        },
+        {
+          "roomType": "Forest View Room",
+          "price": 3200,
+          "availability": true,
+          "description": "Room with views of Periyar Forest and wildlife sanctuary.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da"
+        },
+        {
+          "roomType": "Plantation Villa",
+          "price": 6800,
+          "availability": false,
+          "description": "Private villa set within cardamom and pepper plantations.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Private Garden",
+            "Outdoor Dining",
+            "Plantation Tours"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1615874959474-d609969a20ed"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/261169/pexels-photo-261169.jpeg",
+        "https://images.pexels.com/photos/2869215/pexels-photo-2869215.jpeg",
+        "https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg",
+        "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+        "https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Mist Valley Retreat",
+      "location": "Wayanad, India",
+      "price": 4300,
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg",
+      "room": [
+        {
+          "roomType": "Hill View Room",
+          "price": 2000,
+          "availability": true,
+          "description": "Cozy room with views of misty hills and coffee plantations.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "TV",
+            "Tea/Coffee Maker"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a"
+        },
+        {
+          "roomType": "Valley View Room",
+          "price": 2800,
+          "availability": true,
+          "description": "Room with panoramic views of the lush green valleys.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1587985064135-0366536eab42"
+        },
+        {
+          "roomType": "Treehouse Cottage",
+          "price": 6000,
+          "availability": true,
+          "description": "Unique accommodation built on a tree with forest views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Fridge",
+            "Private Deck",
+            "Outdoor Seating",
+            "Nature Walks"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1570214476695-19bd467e6f7a"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+        "https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg",
+        "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg",
+        "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg",
+        "https://images.pexels.com/photos/2029722/pexels-photo-2029722.jpeg"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "City Towers Luxury Hotel",
+      "location": "Bangalore, India",
+      "price": 8500,
+      "rating": 4.7,
+      "image": "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg",
+      "room": [
+        {
+          "roomType": "Deluxe Room",
+          "price": 4500,
+          "availability": true,
+          "description": "Modern room with city views and business amenities.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Work Desk",
+            "Rain Shower"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1590490360182-c33d57733427"
+        },
+        {
+          "roomType": "Executive Suite",
+          "price": 7000,
+          "availability": true,
+          "description": "Spacious suite with living area and panoramic city views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Living Room",
+            "Executive Lounge Access",
+            "Work Station"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32"
+        },
+        {
+          "roomType": "Presidential Suite",
+          "price": 18000,
+          "availability": true,
+          "description": "Luxurious suite with multiple rooms and top-floor panoramic views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Living Room",
+            "Dining Area",
+            "Jacuzzi",
+            "Kitchenette",
+            "Butler Service"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1551516594-56cb78394645"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg",
+        "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg",
+        "https://images.pexels.com/photos/2029719/pexels-photo-2029719.jpeg",
+        "https://images.pexels.com/photos/1743231/pexels-photo-1743231.jpeg",
+        "https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Vineyard Estate Resort",
+      "location": "Nashik, India",
+      "price": 6200,
+      "rating": 4.6,
+      "image": "https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg",
+      "room": [
+        {
+          "roomType": "Garden View Room",
+          "price": 3000,
+          "availability": true,
+          "description": "Comfortable room with views of landscaped gardens.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "TV",
+            "Tea/Coffee Maker"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+        },
+        {
+          "roomType": "Vineyard View Room",
+          "price": 4200,
+          "availability": true,
+          "description": "Room with private balcony overlooking sprawling vineyards.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa"
+        },
+        {
+          "roomType": "Wine Cellar Suite",
+          "price": 8500,
+          "availability": false,
+          "description": "Unique suite with private wine tasting room and vineyard views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Living Room",
+            "Private Wine Cellar",
+            "Vineyard Tours",
+            "Wine Tasting"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg",
+        "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg",
+        "https://images.pexels.com/photos/2869215/pexels-photo-2869215.jpeg",
+        "https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg",
+        "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Camel Safari Desert Camp",
+      "location": "Pushkar, India",
+      "price": 5500,
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg",
+      "room": [
+        {
+          "roomType": "Standard Desert Tent",
+          "price": 2800,
+          "availability": true,
+          "description": "Comfortable tent with traditional Rajasthani decor and desert views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Twin Beds",
+            "Private Bathroom",
+            "Outdoor Seating"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1570214476695-19bd467e6f7a"
+        },
+        {
+          "roomType": "Luxury Desert Tent",
+          "price": 4000,
+          "availability": true,
+          "description": "Spacious tent with premium furnishings and private outdoor area.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "King Size Bed",
+            "Private Bathroom",
+            "Mini Fridge",
+            "Outdoor Lounge"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1615874959474-d609969a20ed"
+        },
+        {
+          "roomType": "Royal Desert Suite",
+          "price": 7500,
+          "availability": true,
+          "description": "Opulent tent-suite with separate living area and private dining.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "King Size Bed",
+            "Private Bathroom",
+            "Living Area",
+            "Private Dining",
+            "Personal Butler",
+            "Camel Safari Tours"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1540541338287-41700207dee6"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/2344267/pexels-photo-2344267.jpeg",
+        "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+        "https://images.pexels.com/photos/261169/pexels-photo-261169.jpeg",
+        "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg",
+        "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Emerald Island Resort",
+      "location": "Andaman Islands, India",
+      "price": 9800,
+      "rating": 4.9,
+      "image": "https://images.pexels.com/photos/1001965/pexels-photo-1001965.jpeg",
+      "room": [
+        {
+          "roomType": "Garden Villa",
+          "price": 5000,
+          "availability": true,
+          "description": "Elegant villa surrounded by tropical gardens and native flora.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Private Patio"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+        },
+        {
+          "roomType": "Beachfront Villa",
+          "price": 8000,
+          "availability": true,
+          "description": "Private villa with direct beach access and unobstructed sea views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Private Deck",
+            "Outdoor Shower",
+            "Beach Access"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4"
+        },
+        {
+          "roomType": "Overwater Bungalow",
+          "price": 15000,
+          "availability": true,
+          "description": "Luxury bungalow built over crystal clear waters with glass floor sections.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Private Deck",
+            "Direct Sea Access",
+            "Outdoor Jacuzzi",
+            "Glass Floor"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1540541338287-41700207dee6"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg",
+        "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+        "https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg",
+        "https://images.pexels.com/photos/2029722/pexels-photo-2029722.jpeg",
+        "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Tech City Business Hotel",
+      "location": "Hyderabad, India",
+      "price": 7800,
+      "rating": 4.6,
+      "image": "https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg",
+      "room": [
+        {
+          "roomType": "Business Room",
+          "price": 4000,
+          "availability": true,
+          "description": "Well-appointed room with business amenities and city views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Work Desk",
+            "Ergonomic Chair"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1590490360182-c33d57733427"
+        },
+        {
+          "roomType": "Executive Suite",
+          "price": 6500,
+          "availability": true,
+          "description": "Spacious suite with separate living area and business facilities.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Living Room",
+            "Work Station",
+            "Executive Lounge Access"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32"
+        },
+        {
+          "roomType": "Presidential Suite",
+          "price": 15000,
+          "availability": false,
+          "description": "Luxurious top-floor suite with meeting room and panoramic city views.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Living Room",
+            "Dining Area",
+            "Meeting Room",
+            "Butler Service",
+            "Private Check-in"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1551516594-56cb78394645"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg",
+        "https://images.pexels.com/photos/1743231/pexels-photo-1743231.jpeg",
+        "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg",
+        "https://images.pexels.com/photos/2029719/pexels-photo-2029719.jpeg",
+        "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Royal Heritage Palace",
+      "location": "Mysore, India",
+      "price": 7200,
+      "rating": 4.7,
+      "image": "https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg",
+      "room": [
+        {
+          "roomType": "Heritage Room",
+          "price": 3500,
+          "availability": true,
+          "description": "Elegant room with traditional decor and palace-inspired elements.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Flat-screen TV",
+            "Mini Bar",
+            "Heritage Decor"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa"
+        },
+        {
+          "roomType": "Royal Chamber",
+          "price": 5500,
+          "availability": true,
+          "description": "Spacious room with garden views and royal Mysore-inspired interiors.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Sitting Area",
+            "Balcony"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+        },
+        {
+          "roomType": "Maharaja Suite",
+          "price": 12000,
+          "availability": true,
+          "description": "Opulent suite with palace views, antique furnishings, and royal service.",
+          "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioning",
+            "Smart TV",
+            "Mini Bar",
+            "Living Room",
+            "Private Terrace",
+            "Butler Service",
+            "Palace Tour"
+          ],
+          "room_image": "https://images.unsplash.com/photo-1551516594-56cb78394645"
+        }
+      ],
+      "roomImages": [
+        "https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg",
+        "https://images.pexels.com/photos/2344267/pexels-photo-2344267.jpeg",
+        "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+        "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg",
+        "https://images.pexels.com/photos/261169/pexels-photo-261169.jpeg"
+      ]
+    }
+  ]
+}
