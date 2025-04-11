@@ -6,9 +6,10 @@ import BookingForm from "./Pages/BookingForm";
 import HotelDetail, {
   fetchASingleHotel as getSpecificHotel,
 } from "./Pages/HotelDetail";
-import HotelsList from "./Pages/HotelsList";
+import HotelsList, {
+  fetchHotels as filteredHotelsList,
+} from "./Pages/HotelsList";
 import Login from "./Pages/Login";
-import MyBookings from "./Pages/MyBookings";
 import Signup from "./Pages/Signup";
 import Layout from "./utils/Layout";
 
@@ -35,6 +36,7 @@ function App() {
         {
           path: "/hotelList",
           element: <HotelsList />,
+          loader: filteredHotelsList,
         },
         {
           path: "/hotelList/hotelDetail/:id",
@@ -46,7 +48,11 @@ function App() {
         },
         {
           path: "/myBooking",
-          element: <MyBookings />,
+          element: <BookingForm />,
+        },
+        {
+          path: "/myBooking/:id",
+          element: <BookingForm />,
         },
         {
           path: "/signup",

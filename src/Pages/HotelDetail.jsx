@@ -2,12 +2,12 @@ import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { getHotels } from "../services/apiHotel";
 import RoomsDisplayCard from "../components/RoomsDisplayCard";
+import Rating from "../components/Rating";
 
 function HotelDetail() {
   const { id } = useParams();
   const hotel = useLoaderData();
   const details = hotel[id - 1];
-  console.log(details.room[1].amenities);
   const roomImages = details.roomImages;
 
   return (
@@ -18,7 +18,7 @@ function HotelDetail() {
           <div
             key={index}
             // if index is 0 then add row-span-2 to the classname
-            className={`bg-amber-200 rounded-2xl overflow-hidden ${
+            className={` rounded-2xl overflow-hidden ${
               index === 0 ? "row-span-2" : ""
             }`}
           >
@@ -43,22 +43,8 @@ function HotelDetail() {
             iure! Molestiae voluptates nostrum
           </p>
         </div>
-        <div className="w-[15%] flex justify-evenly items-center ">
-          <h1 className="text-lg font-bold ">
-            {(details.rating > 4 && "Excellent") ||
-              (details.rating > 3 && "Average") ||
-              (details.rating <= 3 && "Poor")}
-          </h1>
-          <div
-            className={` ${
-              (details.rating > 4 && "bg-green-400") ||
-              (details.rating > 3 && "bg-yellow-300") ||
-              (details.rating <= 3 && "bg-red-600")
-            } w-[70px] h-[30px] flex justify-center items-center rounded-2xl`}
-          >
-            <h1>{details.rating}</h1>
-          </div>
-        </div>
+        {/* rating */}
+        <Rating rating={details.rating} width="70px" />
       </div>
       {/* hotel details */}
       <div className="w-11/12 justify-self-center p-6 rounded-xl">
@@ -96,11 +82,17 @@ function HotelDetail() {
         <div className=" w-11/12 h-[400px] grid grid-cols-3 items-center justify-self-center mb-8 gap-1">
           {details.room.map((room) => (
             <RoomsDisplayCard
-              key={room.description}
-              image={room.room_image}
-              name={room.roomType}
+              key={room.roomType}
+              hotelId={details.id}
+              hotelName={details.name}
+              hotelLocation={details.location}
+              hotelrating={details.rating}
+              hotelImage={details.image}
+              roomType={room.roomType}
+              roomImage={room.room_image}
               description={room.description}
               availability={room.availability}
+              price={room.price}
             />
           ))}
         </div>

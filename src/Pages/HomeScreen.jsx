@@ -25,7 +25,12 @@ function HomeScreen() {
       {/* <Navbar /> */}
 
       {/* banner */}
-      <DisplayBanner className={"mt-5"} />
+      <DisplayBanner
+        className={"mt-5"}
+        heading={"Book your stay with CozyNest"}
+        subHeading={"1,480,086 rooms around the world are waiting for you!"}
+        image="/images/Bedroom-interior.jpg"
+      />
 
       {/* normal text */}
       <h1 className="text-center text-xl font-bold mt-8">
