@@ -39,16 +39,8 @@ function App() {
           loader: filteredHotelsList,
         },
         {
-          path: "/hotelList/hotelDetail/:id",
-          element: <HotelDetail />,
-        },
-        {
           path: "/login",
           element: <Login />,
-        },
-        {
-          path: "/myBooking",
-          element: <BookingForm />,
         },
         {
           path: "/myBooking/:id",

@@ -12,14 +12,16 @@ function DisplayBanner({ className, heading, subHeading, image }) {
               style={{ backgroundImage: `url(${image})` }}
             ></div>
 
-            <h1 className="text-4xl font-bold text-white relative z-10">
+            <h1 className="text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold text-white relative z-10">
               {heading}
             </h1>
-            <p className="tracking-widest text-white relative z-10">
+            <p className="text-sm tracking-widest text-white relative z-10">
               {subHeading}
             </p>
           </div>
-          <SearchLocation className={"absolute inset-x-0 -bottom-7 bg-white"} />
+          <SearchLocation
+            className={"absolute inset-x-0 sm:-bottom-7 bg-white"}
+          />
         </div>
       </div>
     </>

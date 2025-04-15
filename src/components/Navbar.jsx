@@ -28,8 +28,8 @@ function Navbar() {
         </div>
         {/* ----------- */}
         <div className="w-[20%] flex justify-evenly items-center">
-          <Button variant="contained">Contained</Button>
-          <Button variant="outlined">Outlined</Button>
+          <Button variant="contained">Login</Button>
+          <Button variant="outlined">Signup</Button>
         </div>
       </nav>
     </div>

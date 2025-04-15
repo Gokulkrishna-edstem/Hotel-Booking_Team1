@@ -1,7 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import Alert from "@mui/material/Alert";
 
 import "../index.css";
 import SearchIcon from "@mui/icons-material/Search";
@@ -34,10 +33,10 @@ function SearchLocation({ className }) {
       {showAlert && alert("Enter all field")}
       <form
         onSubmit={handleSubmit}
-        className={`${className} container mx-auto w-5/6 rounded-full shadow-lg flex items-center p-2`}
+        className={`${className} container mx-auto w-5/6 shadow-lg flex  rounded-sm sm:rounded-2xl items-center p-2`}
       >
-        <div className="flex w-full justify-between divide-x divide-gray-300">
-          <div className="px-4 flex flex-col">
+        <div className=" flex sm:flex-row  w-full justify-between divide-x divide-gray-300">
+          <div className="px-0 md:px-4 flex flex-col">
             <span className="text-sm font-semibold">Location</span>
             <input
               type="text"

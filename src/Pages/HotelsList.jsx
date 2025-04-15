@@ -9,6 +9,7 @@ function HotelsList() {
   const { location, checkIn, checkOut, guests } = useSelector(
     (state) => state.hotel
   );
+  console.log(checkIn);
   const displayLocation = location;
   const hotels = useLoaderData();
   const filteredHotels = hotels.filter((hotel) =>
@@ -71,6 +72,7 @@ function HotelsList() {
           {filteredHotels.map((hotel) => (
             <Link to={`/hotelDetail/${hotel.id}`}>
               <FilteredHotelsCard
+                checkIn={checkIn}
                 name={hotel.name}
                 location={hotel.location}
                 rating={hotel.rating}

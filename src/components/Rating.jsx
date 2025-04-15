@@ -3,7 +3,7 @@ import React from "react";
 function Rating({ rating, width }) {
   return (
     <div className="flex gap-3 justify-evenly items-center ">
-      <h1 className="text-lg font-bold ">
+      <h1 className="text-sm sm:text-lg font-bold ">
         {(rating > 4 && "Excellent") ||
           (rating > 3 && "Average") ||
           (rating <= 3 && "Poor")}

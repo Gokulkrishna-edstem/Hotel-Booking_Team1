@@ -3,7 +3,7 @@ import React from "react";
 function PopularDestination({ className }) {
   return (
     <div
-      className={`contaniner ${className} mx-auto w-11/12 mt-4 mb-5 grid grid-cols-4 gap-6 `}
+      className={`contaniner ${className} mx-auto w-11/12 mt-4 mb-5 grid grid-cols-2 sm:grid-cols-4 gap-6 `}
     >
       {/* first div */}
       <div className="rounded-4xl overflow-hidden h-[450px] relative group">
@@ -48,6 +48,7 @@ function PopularDestination({ className }) {
         <img
           src="https://plus.unsplash.com/premium_photo-1697730334419-fba83fe143b7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Kerala image"
+          className="size-full"
         />
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-50 transition-opacity duration-300">
           <h1 className="text-white text-4xl font-bold">Kerala</h1>

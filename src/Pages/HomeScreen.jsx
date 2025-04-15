@@ -33,7 +33,7 @@ function HomeScreen() {
       />
 
       {/* normal text */}
-      <h1 className="text-center text-xl font-bold mt-8">
+      <h1 className="text-center text-lg sm:text-xl font-bold mt-8">
         Popular Destinations
       </h1>
 
@@ -43,10 +43,10 @@ function HomeScreen() {
       {/* hotels list with rating condition */}
       <div className="w-full flex flex-col justify-center mt-12 mb-12">
         <div className="flex self-center flex-col ">
-          <h1 className="text-center text-xl font-bold mt-3 mb-5">
+          <h1 className="text-center text-lg sm:text-xl font-bold mt-3 mb-5">
             Hotels Loved by guests
           </h1>
-          <div className="w-full grid grid-cols-5 gap-10 justify-center">
+          <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-2 sm:gap-10 justify-center">
             {/* displaying hotels with rating above 4  */}
             {hotel
               .filter((hotel) => hotel.rating > 4.4)

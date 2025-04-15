@@ -12,20 +12,18 @@ function HotelDetail() {
 
   return (
     <>
-      {/* div for showing images */}
-      <div className="grid grid-cols-3 grid-rows-2 gap-3 container w-11/12 justify-self-center mt-8">
+      {/* Room Images Grid */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3 w-11/12 mx-auto mt-8">
         {roomImages.map((img, index) => (
           <div
             key={index}
-            // if index is 0 then add row-span-2 to the classname
-            className={` rounded-2xl overflow-hidden ${
-              index === 0 ? "row-span-2" : ""
+            className={`rounded-2xl overflow-hidden ${
+              index === 0 ? "col-span-2 sm:col-span-1 sm:row-span-2" : ""
             }`}
           >
             <img
-              // if index is 0 then add height 413px to the classname
               className={`w-full object-cover ${
-                index === 0 ? "h-[413px]" : "h-[200px]"
+                index === 0 ? "h-[300px] sm:h-[413px]" : "h-[200px]"
               }`}
               src={img}
               alt={`room image ${index + 1}`}
@@ -33,30 +31,34 @@ function HotelDetail() {
           </div>
         ))}
       </div>
-      {/* hotel name  and rating  */}
-      <div className="container w-11/12 justify-self-center items-center ps-3 h-[100px] mt-5 mb-11 flex justify-between rounded-2xl ">
-        <div className=" w-[50%]">
-          <h1 className="font-bold text-lg">{details.name}</h1>
-          <p>
+
+      {/* Hotel name and rating */}
+      <div className="w-11/12 mx-auto px-4 mt-6 mb-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+        <div className="w-full md:w-2/3">
+          <h1 className="font-bold text-xl mb-2 text-slate-800">
+            {details.name}
+          </h1>
+          <p className="text-sm text-slate-600">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
             possimus aperiam labore eum iure sed. Perferendis suscipit quisquam
-            iure! Molestiae voluptates nostrum
+            iure! Molestiae voluptates nostrum.
           </p>
         </div>
-        {/* rating */}
-        <Rating rating={details.rating} width="70px" />
+        <div className="md:w-1/3 flex justify-start md:justify-end">
+          <Rating rating={details.rating} width="70px" />
+        </div>
       </div>
-      {/* hotel details */}
-      <div className="w-11/12 justify-self-center p-6 rounded-xl">
+
+      {/* Property Overview */}
+      <div className="w-11/12 mx-auto p-4 md:p-6 rounded-xl">
         <h1 className="text-lg font-bold text-slate-700 mb-4">
           Property Overview
         </h1>
-
-        <div className="flex flex-wrap gap-6">
+        <div className="flex flex-wrap gap-4 justify-center md:justify-start">
           {details.room.map((room, index) => (
             <div
               key={index}
-              className="bg-white p-4 rounded-lg shadow-md w-[430px] min-w-[250px]"
+              className="bg-white p-4 rounded-lg shadow-md w-full sm:w-[48%] lg:w-[30%] min-w-[250px]"
             >
               <h2 className="text-md font-semibold mb-2">{room.roomType}</h2>
               <ul className="flex flex-wrap gap-2">
@@ -74,27 +76,27 @@ function HotelDetail() {
         </div>
       </div>
 
-      {/*  Rooms list */}
-      <div className="bg-slate-50">
-        <div className="w-11/12 mt-5 items-center flex justify-self-center">
-          <h1 className="font-bold mt-5 ms-5 text-lg text-slate-500">Rooms</h1>
-        </div>
-        <div className=" w-11/12 h-[400px] grid grid-cols-3 items-center justify-self-center mb-8 gap-1">
-          {details.room.map((room) => (
-            <RoomsDisplayCard
-              key={room.roomType}
-              hotelId={details.id}
-              hotelName={details.name}
-              hotelLocation={details.location}
-              hotelrating={details.rating}
-              hotelImage={details.image}
-              roomType={room.roomType}
-              roomImage={room.room_image}
-              description={room.description}
-              availability={room.availability}
-              price={room.price}
-            />
-          ))}
+      {/* Rooms List */}
+      <div className="bg-slate-50 py-8">
+        <div className="w-11/12 mx-auto">
+          <h1 className="font-bold text-lg text-slate-500 mb-5">Rooms</h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {details.room.map((room) => (
+              <RoomsDisplayCard
+                key={room.roomType}
+                hotelId={details.id}
+                hotelName={details.name}
+                hotelLocation={details.location}
+                hotelrating={details.rating}
+                hotelImage={details.image}
+                roomType={room.roomType}
+                roomImage={room.room_image}
+                description={room.description}
+                availability={room.availability}
+                price={room.price}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </>
